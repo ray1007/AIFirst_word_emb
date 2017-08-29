@@ -64,7 +64,6 @@ csvfile = open('answer.csv', 'w', newline='')
 writer = csv.writer(csvfile)
 
 quiz_num = 1
-correct = 0
 for dlg,opt in zip(dialogues, options):
   dlg_embs = []
   emb_cnt = 0
